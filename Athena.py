@@ -54,12 +54,20 @@ def reguser():
     username = str(input("name"))
     stringer == "||" + username + "||"
     path = './userlist.txt'
-    flags = os.O_RDWR | os.O_CREAT
-    fd = os.open(path, flags, mode)
-    os.write(fd, stringer.encode())
+    fd = os.open(path, os.O_WRONLY | os.O_CREAT | os.O_APPEND, 0o644)
+    bytes_written = os.write(fd, stringer.encode('utf-8'))
+    print(f"Added user {bytes_written}to {path}")
+    except OSError as e:
+        print(f"OS error occurred: {e}")
+    finally:
+        try:
+            os.close(fd)
+        except NameError:
+            pass
 while __name__ == "__main__":
     if killed == True:
         quit()
     command = input("Welcome to Athena-zero, what can i do for you? : ")
     Login(command)
+
 
