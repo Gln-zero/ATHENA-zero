@@ -48,6 +48,7 @@ def Login(cmd):
             time.sleep(random.randint(1, 3))
             if str(rrname) in decinf:
                 print(f"Welcome {name} \nNow logging in to your account")
+                loggedInAs = name
             else:
                 print(f"User {name} not found. \nReopen the program if you used the wrong code. \nOtherwise just forget about this program...")
         except:
