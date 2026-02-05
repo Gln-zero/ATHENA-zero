@@ -19,7 +19,7 @@ def Login(cmd):
     os.lseek(users,0,0)
     infostr = os.read(users, os.path.getsize(path))
     decinf = infostr.decode()
-    print(decinf)
+    # print(decinf)
 
 
 
@@ -30,7 +30,7 @@ def Login(cmd):
             rname = str(name)
             rrname = "||" + rname + "||"
             print("Proccessing...")
-            time.sleep(random.randint(2,7))
+            time.sleep(random.randint(1,3))
             if  str(rrname) in decinf:
                 print(f"Welcome {name} \nNow logging in to your account")
             else:
@@ -38,11 +38,7 @@ def Login(cmd):
         except:
             print("I'm sorry. I DO NOT accept codes that are NOT an integer.")
     elif cmdupper == "SIGNUP":
-        try:
-            name = int(input("Enter a code as your username please: "))
-            
-        except:
-            print("not an int or smth else happened")
+        reguser()
     elif cmdupper == "KILL":
         killed = True
         ultrakill()
@@ -51,12 +47,12 @@ def Login(cmd):
     else:
         print(f"Sorry! {cmdupper} is not a valid command.")
 def reguser():
-    username = str(input("name"))
-    stringer == "||" + username + "||"
+    username = input("enter code as name: ")
+    stringer = "||" + username + "||"
     path = './userlist.txt'
-    fd = os.open(path, os.O_WRONLY | os.O_CREAT | os.O_APPEND, 0o644)
-    bytes_written = os.write(fd, stringer.encode('utf-8'))
-    print(f"Added user {bytes_written}to {path}")
+    try:
+        fd = os.open(path, os.O_WRONLY | os.O_CREAT | os.O_APPEND, 0o644)
+        bytes_written = os.write(fd, stringer.encode('utf-8'))
     except OSError as e:
         print(f"OS error occurred: {e}")
     finally:
