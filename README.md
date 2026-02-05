@@ -5,10 +5,10 @@ Lollolking1234 (AKA Gln): Owner and original creator <br>
 Kalerion1: Collaborator <br>
 am-clonec (AKA CloneC or Chardelius): Collabirator and main programmer <br>
 # Current Features
-Functioning login system <br>
+Semi-Functioning login system (doesnt remember you lol) <br>
+Functioning signup system <br>
 # Upcoming Features
-Signup system <br>
 Encryption <br>
 Compiled versions <br>
 # Releases
-None <br>
+One prerelease: alpha 0.0.1 (might have accidentally said beta i dont remember) <br>
