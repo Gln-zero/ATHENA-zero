@@ -7,8 +7,8 @@ am-clonec (AKA CloneC or Chardelius): Collabirator and main programmer <br>
 # Current Features
 Semi-Functioning login system (doesnt remember you lol) <br>
 Functioning signup system <br>
-# Upcoming Features
 Encryption <br>
-Compiled versions <br>
+# Upcoming Features
+Compiled versions (I guess those exist already idk?) <br>
 # Releases
-One prerelease: alpha 0.0.1 (might have accidentally said beta i dont remember) <br>
+One prerelease: alpha 0.0.1 (might have accidentally said beta i dont remember edit: i didn't) <br>
