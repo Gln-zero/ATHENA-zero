@@ -11,6 +11,7 @@ Encryption <br>
 # Upcoming Features
 Compiled versions (I guess those exist already idk?) <br>
 # Terms Of Use
-You can't make this program your own.
+You can't claim this program as your own or distribute it.
+You may modify this program for your own use, but you may not distribute your modified version.
 # Releases
 One prerelease: alpha 0.0.1 (might have accidentally said beta i dont remember edit: i didn't) <br>
