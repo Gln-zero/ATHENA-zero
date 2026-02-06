@@ -10,5 +10,7 @@ Functioning signup system <br>
 Encryption <br>
 # Upcoming Features
 Compiled versions (I guess those exist already idk?) <br>
+# Terms Of Use
+You can't make this program your own.
 # Releases
 One prerelease: alpha 0.0.1 (might have accidentally said beta i dont remember edit: i didn't) <br>
