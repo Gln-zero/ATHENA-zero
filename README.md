@@ -1,7 +1,7 @@
 # ATHENA-zero
 ATHENA-zero is a WIP python account system. We are planning on adding encryption to the file and anything related for safety. <br>
 # Developers
-Lollolking1234 (AKA Gln): Owner and original creator <br>
+Gln-zero (AKA Gln): Owner and original creator <br>
 Kalerion1: Collaborator <br>
 am-clonec (AKA CloneC or Chardelius): Collabirator and main programmer <br>
 # Current Features
