@@ -1,5 +1,5 @@
 # ATHENA-zero
-ATHENA-zero is a WIP python account system. We are planning on adding encryption to the file and anything related for safety. <br>
+ATHENA-zero is a WIP python-based account system. We are planning on adding encryption to the file and anything related for safety (already somewhat implemented). <br>
 # Developers
 Gln-zero (AKA Gln): Owner and original creator <br>
 Kalerion1: Collaborator <br>
@@ -12,6 +12,6 @@ Encryption <br>
 Compiled versions (I guess those exist already idk?) <br>
 # Terms Of Use
 You can't claim this program as your own or redistribute it.
-You may modify this program for your own use, but you may not distribute your modified version.
+You may modify this program for your own personal use ONLY, but you may not distribute your modified version.
 # Releases
 One prerelease: alpha 0.0.1 (might have accidentally said beta i dont remember edit: i didn't) <br>
