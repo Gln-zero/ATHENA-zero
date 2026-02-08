@@ -3,7 +3,7 @@ ATHENA-zero is a WIP python-based account system. We are planning on adding encr
 # Developers
 Gln-zero (AKA Gln): Owner and original creator <br>
 Kalerion1: Collaborator <br>
-am-clonec (AKA CloneC or Chardelius): Collabirator and main programmer <br>
+am-clonec (AKA CloneC or Chardelius): Collaborator and main programmer <br>
 # Current Features
 Semi-Functioning login system (doesnt remember you lol) <br>
 Functioning signup system <br>
